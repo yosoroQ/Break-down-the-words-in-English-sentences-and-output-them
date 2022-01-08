@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<web-app>
+ 
+<servlet>
+<servlet-name>word</servlet-name>
+<servlet-class>myservlet.control.Decompose</servlet-class>
+</servlet>
+ 
+<servlet-mapping>
+<servlet-name>word</servlet-name>
+<url-pattern>/word</url-pattern>
+</servlet-mapping>
+ 
+</web-app>
